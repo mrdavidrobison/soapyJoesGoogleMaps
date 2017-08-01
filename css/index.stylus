@@ -1,0 +1,38 @@
+#map 
+  height 480px
+  width 100%
+  display block
+  margin-top 20px
+
+html, body 
+  height 100%
+  margin 0
+  padding 0
+  font-weight bold
+  font-family 'Times New Roman', Times, serif
+
+#casaMarker
+  height auto
+  width auto
+
+#casaTitle
+  line-height 20px
+  font-size 12px
+  font-weight bold
+  color #000000
+
+#casaAddress
+  line-height 0px
+  font-size 12px
+  color #000000
+
+#casaLink
+  color #c69670
+  font-size 12px
+  font-weight bold
+  line-height 0px
+  text-decoration underline
+
+#casaArrow
+  color #c69670
+  url "https://dahlproperties.com/wp-content/uploads/2017/07/icon_tan_arrow_right.png"
