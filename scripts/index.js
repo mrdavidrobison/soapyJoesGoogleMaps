@@ -30,7 +30,7 @@ function initMap() {
       }
 
       currWindow = infowindow;
-      infowindow.open(base.map, marker);
+      infowindow.open(map, marker);
     });
 
   }
