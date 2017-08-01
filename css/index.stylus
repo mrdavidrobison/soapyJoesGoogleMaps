@@ -26,13 +26,18 @@ html, body
   font-size 12px
   color #000000
 
+#soapyCity
+  line-height 0px
+  font-size 12px
+  color #000000
+
 #soapyLink
-  color #c69670
+  color #2EA3DD
   font-size 12px
   font-weight bold
   line-height 0px
   text-decoration underline
 
 #soapyArrow
-  color #c69670
+  color #2EA3DD
   url "https://dahlproperties.com/wp-content/uploads/2017/07/icon_tan_arrow_right.png"
