@@ -8,8 +8,8 @@ function initMap() {
 
   // choose map marker icon
   var icon = {
-    url: "https://dahlproperties.com/wp-content/uploads/2017/07/icon_property_marker.png",
-    scaledSize: new google.maps.Size(30, 30),
+    url: "https://static3.soapyjoescarwash.com/wp-content/uploads/2016/12/sj_locations_locatepointer2.png",
+    scaledSize: new google.maps.Size(40, 40),
   };
 
   var currWindow = false;
