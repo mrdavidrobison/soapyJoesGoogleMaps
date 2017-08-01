@@ -2,8 +2,8 @@ function initMap() {
 
   // center the map
   var map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 27.899, lng: -82.515 },
-    zoom: 13
+    center: { lat: 32.937945, lng: -117.142418 },
+    zoom: 9
   });
 
   // choose map marker icon
@@ -39,40 +39,68 @@ function initMap() {
   var secretMessages = ['<div id="casaMarker"><h3 id="casaTitle">Villa Estrella </h3><p id="casaAddress">2801 W Estrella St </p><a id="casaLink" href="http://brainstorm.solutions/dahl/property/villa-estrella/">Go to Property Details</a><span id="casaArrow"> &#9654;</span></div>', '<div id="casaMarker"><h3 id="casaTitle">Casa Juanita </h3><p id="casaAddress">6806 S Juanita St </p><a id="casaLink" href="http://brainstorm.solutions/dahl/property/casa-juanita/">Go to Property Details</a><span id="casaArrow"> &#9654;</span></div>', '<div id="casaMarker"><h3 id="casaTitle">Casa Luna </h3><p id="casaAddress">2904 W Estrella St </p><a id="casaLink" href="http://brainstorm.solutions/dahl/property/casa-luna/">Go to Property Details</a><span id="casaArrow"> &#9654;</span></div>', '<div id="casaMarker"><h3 id="casaTitle">Casa Feliz </h3><p id="casaAddress">3006 W Estrella St </p><a id="casaLink" href="http://brainstorm.solutions/dahl/property/casa-feliz/">Go to Property Details</a><span id="casaArrow"> &#9654;</span></div>', '<div id="casaMarker"><h3 id="casaTitle">Casa Bella </h3><p id="casaAddress">6824 S Sparkman St </p><a id="casaLink" href="http://brainstorm.solutions/dahl/property/casa-bella/">Go to Property Details</a><span id="casaArrow"> &#9654;</span></div>'];
 
   // create markers for each property listing
-  var estrella = new google.maps.Marker({
+  var oceanside = new google.maps.Marker({
     position: new google.maps.LatLng(27.928814, -82.489407),
     map: map,
     icon: icon
   });
-  attachSecretMessage(estrella, secretMessages[0]);
+  attachSecretMessage(oceanside, secretMessages[0]);
 
-  var juanita = new google.maps.Marker({
+  var sanMarcos = new google.maps.Marker({
     position: new google.maps.LatLng(27.868068, -82.529975),
     map: map,
     icon: icon
   });
-  attachSecretMessage(juanita, secretMessages[1]);
+  attachSecretMessage(sanMarcos, secretMessages[1]);
 
-  var luna = new google.maps.Marker({
+  var escondido = new google.maps.Marker({
     position: new google.maps.LatLng(27.928471, -82.491106),
     map: map,
     icon: icon
   });
-  attachSecretMessage(luna, secretMessages[2]);
+  attachSecretMessage(escondido, secretMessages[2]);
 
-  var feliz = new google.maps.Marker({
+  var ranchoBernardo = new google.maps.Marker({
     position: new google.maps.LatLng(27.928510, -82.492345),
     map: map,
     icon: icon
   });
-  attachSecretMessage(feliz, secretMessages[3]);
+  attachSecretMessage(ranchoBernardo, secretMessages[3]);
 
-  var bella = new google.maps.Marker({
+  var miraMesa = new google.maps.Marker({
     position: new google.maps.LatLng(27.866954, -82.524223),
     map: map,
     icon: icon
   });
-  attachSecretMessage(bella, secretMessages[4]);
+  attachSecretMessage(miraMesa, secretMessages[4]);
+
+  var laMesa = new google.maps.Marker({
+    position: new google.maps.LatLng(27.866954, -82.524223),
+    map: map,
+    icon: icon
+  });
+  attachSecretMessage(laMesa, secretMessages[4]);
+
+  var ranchoSanDiego = new google.maps.Marker({
+    position: new google.maps.LatLng(27.866954, -82.524223),
+    map: map,
+    icon: icon
+  });
+  attachSecretMessage(ranchoSanDiego, secretMessages[4]);
+
+  var nationalCity = new google.maps.Marker({
+    position: new google.maps.LatLng(27.866954, -82.524223),
+    map: map,
+    icon: icon
+  });
+  attachSecretMessage(nationalCity, secretMessages[4]);
+
+  var imperialBeach = new google.maps.Marker({
+    position: new google.maps.LatLng(27.866954, -82.524223),
+    map: map,
+    icon: icon
+  });
+  attachSecretMessage(imperialBeach, secretMessages[4]);
   
   google.maps.event.addDomListener(window, "resize", function () {
     var center = map.getCenter();
