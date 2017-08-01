@@ -11,32 +11,31 @@ html, body
   background-color #2EA3DD
 
 #soapyMarker
-  background-color #2EA3DD
   font-family Lato, Arial, Tahoma, sans-serif
 
 #soapyTitle
   line-height 20px
   font-size 14px
   font-weight bold
-  color #ffffff
+  color #000000
 
 #soapyAddress
   line-height 0px
   font-size 14px
-  color #ffffff
+  color #000000
 
 #soapyCity
   line-height 0px
   font-size 14px
-  color #ffffff
+  color #000000
 
 #soapyLink
-  color #FFD615
+  color #2EA3DD
   font-size 14px
   font-weight bold
   line-height 0px
   text-decoration underline
 
 #soapyArrow
-  color #FFD615
+  color #2EA3DD
   url "https://dahlproperties.com/wp-content/uploads/2017/07/icon_tan_arrow_right.png"
