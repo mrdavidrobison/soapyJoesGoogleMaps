@@ -11,28 +11,28 @@ html, body
   font-weight bold
   font-family 'Times New Roman', Times, serif
 
-#casaMarker
+#soapyMarker
   height auto
   width auto
 
-#casaTitle
+#soapyTitle
   line-height 20px
   font-size 12px
   font-weight bold
   color #000000
 
-#casaAddress
+#soapyAddress
   line-height 0px
   font-size 12px
   color #000000
 
-#casaLink
+#soapyLink
   color #c69670
   font-size 12px
   font-weight bold
   line-height 0px
   text-decoration underline
 
-#casaArrow
+#soapyArrow
   color #c69670
   url "https://dahlproperties.com/wp-content/uploads/2017/07/icon_tan_arrow_right.png"
