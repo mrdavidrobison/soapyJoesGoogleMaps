@@ -47,60 +47,60 @@ function initMap() {
   attachSecretMessage(oceanside, secretMessages[0]);
 
   var sanMarcos = new google.maps.Marker({
-    position: new google.maps.LatLng(27.868068, -82.529975),
+    position: new google.maps.LatLng(33.137300, -117.180470),
     map: map,
     icon: icon
   });
   attachSecretMessage(sanMarcos, secretMessages[1]);
 
   var escondido = new google.maps.Marker({
-    position: new google.maps.LatLng(27.928471, -82.491106),
+    position: new google.maps.LatLng(33.131524, -117.065472),
     map: map,
     icon: icon
   });
   attachSecretMessage(escondido, secretMessages[2]);
 
   var ranchoBernardo = new google.maps.Marker({
-    position: new google.maps.LatLng(27.928510, -82.492345),
+    position: new google.maps.LatLng(33.023493, -117.082701),
     map: map,
     icon: icon
   });
   attachSecretMessage(ranchoBernardo, secretMessages[3]);
 
   var miraMesa = new google.maps.Marker({
-    position: new google.maps.LatLng(27.866954, -82.524223),
+    position: new google.maps.LatLng(32.906482, -117.175399),
     map: map,
     icon: icon
   });
   attachSecretMessage(miraMesa, secretMessages[4]);
 
   var laMesa = new google.maps.Marker({
-    position: new google.maps.LatLng(27.866954, -82.524223),
+    position: new google.maps.LatLng(32.776054, -117.015475),
     map: map,
     icon: icon
   });
-  attachSecretMessage(laMesa, secretMessages[4]);
+  attachSecretMessage(laMesa, secretMessages[5]);
 
   var ranchoSanDiego = new google.maps.Marker({
-    position: new google.maps.LatLng(27.866954, -82.524223),
+    position: new google.maps.LatLng(32.744343, -116.934631),
     map: map,
     icon: icon
   });
-  attachSecretMessage(ranchoSanDiego, secretMessages[4]);
+  attachSecretMessage(ranchoSanDiego, secretMessages[6]);
 
   var nationalCity = new google.maps.Marker({
-    position: new google.maps.LatLng(27.866954, -82.524223),
+    position: new google.maps.LatLng(32.661759, -117.079394),
     map: map,
     icon: icon
   });
-  attachSecretMessage(nationalCity, secretMessages[4]);
+  attachSecretMessage(nationalCity, secretMessages[7]);
 
   var imperialBeach = new google.maps.Marker({
-    position: new google.maps.LatLng(27.866954, -82.524223),
+    position: new google.maps.LatLng(32.584443, -117.104637),
     map: map,
     icon: icon
   });
-  attachSecretMessage(imperialBeach, secretMessages[4]);
+  attachSecretMessage(imperialBeach, secretMessages[8]);
   
   google.maps.event.addDomListener(window, "resize", function () {
     var center = map.getCenter();
