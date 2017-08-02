@@ -4,7 +4,7 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     center: { lat: 32.937945, lng: -117.142418 },
     zoom: 9,
-    mapTypeId: 'hybrid'
+    mapTypeId: 'roadmap'
   });
 
   // choose map marker icon
