@@ -2,7 +2,7 @@
   height 480px
   width 100%
   display block
-  margin-top 20px
+  margin-top 50px
 
 html, body 
   height 100%
